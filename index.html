@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Gen X-TKJ-A</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h1> Gen X-TKJ-A</h1>
+        </header>
+        <main>
+            <section id="utama" class="centered">
+                <h2>Gen X-TKJ-A</h2>
+                <p>“TKJ itu bukan cuma soal komputer. Ini soal ngelatih diri biar bisa mikir jernih, tenang waktu ada masalah, dan nggak gampang nyerah.”</p>
+                <button onclick="document.getElementById('tentang').scrollIntoView({behavior: 'smooth'})">Pelajari Lebih Lanjut</button>
+            </section>
+            <center id="tentang" class="section-container">
+                <h2>Tentang Kami</h2>
+                <img src="images/foto_kelas.jpg" alt="Foto Kelas" class="foto-kelas" />
+                <p>“Anak TKJ jago bikin sesuatu yang rumit jadi lebih sederhana. Dari setting IP, konfigurasi jaringan, sampai troubleshooting—semua dibikin terlihat mudah.”</p>
+                <div class="container">
+                    <div class="card">34<br>murid</div>
+                    <div class="card">1<br>guru</div>
+                    <div class="card">0<br>prestasi</div>
+                </div>
+            </section>
+            <section id="struktur" class="section-container">
+                <h2>Struktur Kelas</h2>
+                <div class="jabatan-anggota wali">
+                    <div class="profil-jabatan">
+                        <img src="images/wali_kelas.jpg" alt="bu amaliya" />
+                        <p><strong>Wali Kelas</strong><br />Bu Amaliya</p>
+                    </div>
+                </div>
+                <div class="jabatan-anggota pimpinan">
+                    <div class="profil-jabatan">
+                        <img src="images/ketua.jpg" alt="fadhil rahmat" />
+                        <p><strong>Ketua Kelas</strong><br />Fadhil Rahmat</p>
+                    </div>
+                    <div class="profil-jabatan">
+                        <img src="images/wakil_ketua.jpg" alt="satria irawan" />
+                        <p><strong>Wakil Ketua</strong><br />Satria Irawan</p>
+                    </div>
+                </div>
+                <div class="jabatan-anggota anggota">
+                    <div class="profil-jabatan">
+                        <img src="images/sekertaris_I.jpg" alt="Dean Vatra" />
+                        <p><strong>Sekretaris I</strong><br />Dean Vatra</p>
+                    </div>
+                    <div class="profil-jabatan">
+                        <img src="images/sekertaris_II.jpg" alt="Nibras Pandya" />
+                        <p><strong>Sekretaris II</strong><br />Nibras Pandya</p>
+                    </div>
+                    <div class="profil-jabatan">
+                        <img src="images/bendahara.jpg" alt="Aditya Anugerah" />
+                        <p><strong>Bendahara</strong><br />Aditya Anugerah</p>
+                    </div>
+                </div>
+            </section>
+            <section id="album" class="section-container">
+                <h2>Album Kegiatan</h2>
+                <div class="tabs">
+                    <button onclick="showAlbum(1)">Pertama</button>
+                    <button onclick="showAlbum(2)">Kedua</button>
+                    <button onclick="showAlbum(3)">Ketiga</button>
+                </div>
+                <div id="album-1" class="album">
+                    <img src="images/album1_1.jpg" alt="Album 1 Foto 1" />
+                    <img src="images/album1_2.jpg" alt="Album 1 Foto 2" />
+                    <img src="images/album1_3.jpg" alt="Album 1 Foto 3" />
+                    <img src="images/album1_4.jpg" alt="Album 1 Foto 4" />
+                </div>
+                <div id="album-2" class="album">
+                    <img src="images/album2_1.jpg" alt="Album 2 Foto 1" />
+                    <img src="images/album2_2.jpg" alt="Album 2 Foto 2" />
+                    <img src="images/album2_3.jpg" alt="Album 2 Foto 3" />
+                    <img src="images/album2_4.jpg" alt="Album 2 Foto 4" />
+                </div>
+                <div id="album-3" class="album">
+                    <img src="images/album3_1.jpg" alt="Album 3 Foto 1" />
+                    <img src="images/album3_2.jpg" alt="Album 3 Foto 2" />
+                    <img src="images/album3_3.jpg" alt="Album 3 Foto 3" />
+                    <img src="images/album3_4.jpg" alt="Album 3 Foto 4" />
+                </div>
+            </section>
+            <section id="daftar-anggota" class="section-container">
+                <h2>Anggota Kelas X-TKJ-A</h2>
+                <div class="anggota-container">
+                    <!-- Baris 1 -->
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_1.jpg" alt="Absen 1">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>1. Adhinata Beryl S</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/bendahara.jpg" alt="Absen 2">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>2. Aditya Anugerah</h3>
+                        </div>
+                    </div><div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_3.jpg" alt="Absen 3">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>3. Aditya Putra</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_4.jpg" alt="Absen 4">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>4. Alfian Wardhana</h3>
+                        </div>
+                    </div>
+                    <!-- Baris 2 -->
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_5.jpg" alt="absen 5">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>5. Alfin Bachtiar</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_6.jpg" alt="Absen 6">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>6. Alfredo Giovaldi</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/sekertaris_I.jpg" alt="Absen 7">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>7. Dean Vatra</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/ketua.jpg" alt="Absen 8">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>8. Fadhil Rahmat</h3>
+                        </div>        
+                    </div>
+                    <!-- Baris 3 -->
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_9.jpg" alt="Absen 9">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>9. farel fausta</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_10.jpg" alt="Absen 10">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>10. Febrian Putra</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_11.jpg" alt="Absen 11">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>11. Genta Dwiyan</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_12.jpg" alt="Absen 12">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>12. Hafizh maulana</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_13.jpg" alt="absen 13">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>13. Isfan Fajar</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_14.jpg" alt="Absen 14">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>14. Joan Alkahfi</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_15.jpg" alt="Absen 15">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>15. Lutfi Ihsan</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_16.jpg" alt="Absen 16">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>16. M Fadhil</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_17.jpg" alt="Absen 17">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>17. M Affan</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_18.jpg" alt="Absen 18">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>18. M Arkaditya</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_19.jpg" alt="Absen 19">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>19. M Richat</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_20.jpg" alt="Absen 20">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>20. M Syahdy</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_21.jpg" alt="Absen 21">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>21. M Ragga</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_22.jpg" alt="Absen 22">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>22. M Rizal</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_23.jpg" alt="Absen 23">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>23. M Rizky</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_24.jpg" alt="Absen 24">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>24. Nadif Afriansyah</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_25.jpg" alt="Absen 25">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>25. Naufal Syahdana</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/sekertaris_II.jpg" alt="Absen 26">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>26. Nibras Pandya</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_27.jpg" alt="Absen 27">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>27. Radtya Haikal</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_28.jpg" alt="Absen 28">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>28. Rahmat Bambang</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_29.jpg" alt="Absen 29">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>29. Rahkha Yudda</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_30.jpg" alt="Absen 30">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>30. Rehan Saputra</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_31.jpg" alt="Absen 31">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>31. Rifat Athallah</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/wakil_ketua.jpg" alt="Absen 32">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>32. satria Irawan</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_33.jpg" alt="Absen 33">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>33. samuel</h3>
+                        </div>
+                    </div>
+                    <div class="anggota-item">
+                        <div class="anggota-foto">
+                            <img src="images/absen_34.jpg" alt="Absen 34">
+                        </div>
+                        <div class="anggota-info">
+                            <h3>34. wahyu </h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="centered">
+            <p>&copy; 2025 GEN X-TKJ-A. All rights reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
